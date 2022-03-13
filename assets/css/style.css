@@ -1,0 +1,251 @@
+body {
+    background-color: #F2F3F4;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #070707;
+    color: #F8F9F9;
+    justify-content: center;
+    padding: 5px;
+}
+
+h1 {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 35px;
+    text-align: center;
+    /* margin:; */
+}
+
+table {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+td, th {
+    padding: 10px 50px;
+}
+
+th {
+    background-color: #070707;
+    color: #F8F9F9;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 15px;
+    color: #515A5A;
+}
+
+tr:hover {
+    background-color: #DBDBDB;
+    cursor: pointer;
+}
+
+table, td, th {
+    border: 1px solid rgba(0, 0, 0 .1);
+    width: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    outline: none;
+    border: 0;
+}
+
+form {
+    margin: 30px auto;
+    width: 500px;
+    height: 850px;
+    background-color: #fff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+label {
+    color: #566573;
+    margin-left: 15px;
+}
+
+section {
+    background-color: #F2F3F4;
+    width: 100%;
+    height: 40vh;
+}
+
+footer {
+    margin-top: 120px;
+    background-color: #070707;
+    height: 5vh;
+    position: relative;
+}
+
+.main-header {
+    margin-top: 0;
+    height: 40vh;
+    width: 1300 px;
+    background-image: url('../img/library.jpg');
+}
+
+.main-nav {
+    text-align: center;
+    background-color: #070707;
+    padding: 10px;
+}
+
+.navs {
+    background-color: #333333;
+    padding: 20px;
+}
+
+.el-nav {
+    padding: 5px 10px 5px 10px;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.el-nav:hover {
+    background-color: #2A2A2A;
+}
+
+.btn-nav {
+    color: #F8F9F9;
+    padding: 10px;
+}
+
+.btn-nav:hover {
+    background-color: #2A2A2A;
+}
+
+.el-foot {
+    text-align: center;
+    color: #F8F9F9;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.btn-form {
+    width: 480px;
+    border: solid 1px #ccc;
+    padding: 15px 0 15px 0;
+    margin: 10px;
+    background-color: #2A2A2A;
+    font-size: 20px;
+    color: #515A5A;
+    border-radius: 10px;
+}
+
+.btn-form:hover {
+    background-color:black;
+    cursor: pointer;
+    color: white;
+}
+
+.fa-trash {
+    color: #515A5A;
+}
+
+.fa-pen {
+    color: #515A5A;
+}
+
+.field {
+    width: 450px;
+    border: solid 1px #ccc;
+    padding: 15px;
+    margin: 10px 10px 30px 10px;
+}
+
+.field:focus {
+    border-color: black;
+}
+
+.img-header {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 60px 20px 0 20px;
+}
+
+.card p {
+    display: block;
+    font-size: 25px;
+}
+
+.dif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(30, 30, 30);
+    background-blend-mode: soft-light;
+}
+
+.mat {
+    color: white;
+    background-image: url('../img/mate.jpg');
+}
+
+.mat:hover {
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+}
+
+.inf {
+    background-image: url('../img/kids.jpg');
+    color: white;
+}
+
+.inf:hover {
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+}
+
+.terr {
+    background-image: url('../img/terror.jpg');
+    color: white;
+}
+
+.terr:hover {
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+}
+
+.rom {
+    background-image: url('../img/romance.jpg');
+    color: white;
+}
+
+.rom:hover {
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
